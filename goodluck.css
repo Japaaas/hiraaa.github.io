@@ -1,0 +1,66 @@
+
+.content{
+  grid-area: content;
+}
+body{
+  background-image: url("DCIM/Camera/hear.jpg");
+  background-size: cover;
+  height: 1500px;
+  position: relative;
+  background-position: center;
+}
+.good{
+  max-width: 90 px;
+  margin: 2em;
+  text-align: center;
+}
+h1{
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+h3{
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin: 1em;
+  color: #55342B;
+}
+.divlah{
+  grid-area: header;
+  background-color: #B9B7BC;
+  margin: 0.5em;
+  mix-blend-mode: multiply;
+  border-radius: 50px;
+}
+.tengah{
+  margin: 0.5em;
+  grid-area: content;
+  background-color: #CCBAA0;
+  mix-blend-mode: darken;
+  border-radius: 5px;
+}
+p{
+  margin: 0.5em;
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: black;
+}
+section{
+  padding: 1em;
+}
+button{
+  margin: 1em;
+  height: 3em;
+  width: 8em;
+  border-radius: 20px;
+  background: #BCDBF9;
+}
+a{
+  font-family: "Barriecito", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  color: black;
+}

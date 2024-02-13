@@ -1,0 +1,7 @@
+body{
+  background-image: url("DCIM/Camera/bgbg.jpg");
+  background-position: center;
+  position: relative;
+  height: 1000px;
+  background-size: cover;
+}
